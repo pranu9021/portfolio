@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <STYLE>
+        .HI{
+            text-align: center;
+            background-color: aqua;
+        }
+        #abc ,#abcc{
+            margin:15px;
+        }
+        #b,#c,#d,#e{
+            padding:10px;
+        }
+        #a{
+            background-color: cornflowerblue;
+        }
+        body{
+         width:700px;
+         padding:5px;
+         border:5px solid black;
+         margin-left:25%;
+        }
+        #hello{
+            
+            
+            background-image: url(mits1.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment:scroll;
+            background-size: 350px 350px;
+        }
+        #img{
+            width:680px;
+        }
+            .ch::placeholder{
+            color:black;
+            background-color:rgb(245, 198, 205);
+            text-decoration:underline;
+        }
+        
+    </STYLE>
+</head>
+<span id="abc">
+<body>
+    <img id="img" src="mits.jpg">
+    <H1 CLASS="HI">ADDMISSION FORM</H1>
+    <p CLASS="HI"><I ><b>~MITS COLLEGE(BTECH/MBA)</b></I></p>
+    <form id="hello">
+        <big>Enter your name</big>:<br><br>
+        <input class="ch" type="text" placeholder="first name" required>
+        <input class="ch" id="abc"  type="text" placeholder="middle name" required>
+        <input class="ch" type="text" placeholder="last  name" required><br><br>
+        <big>Enter your date of birth:</big><br><br>
+        <input class="ch" type="date"><br><br>
+        <big>Gender:</big><br><br>
+        <input class="ch" type="radio" value="male" name="gender">male<br>
+        <input class="ch" type="radio" value="female" name="gender">female<br><br>
+        <big>Enter your mobile number</big>:<br><br>
+        <input  class="ch" type="text" placeholder="mobile number" max="10" required><br><br>
+        <big>Enter your email</big>:<br><br>
+        <input class="ch" type="text" placeholder="email" valid="email" required><br><br>
+        <big>Parents name :</big><br><br>
+        <input  class="ch"type="text" placeholder="fathers name">
+        <input  class="ch" id="abcc"  type="text" placeholder="mothers name"><br><br>
+        <big>Parents oocupation:</big><br><br>
+        <input class="ch" type="text" placeholder="parents occupation"><br><br>
+        <big >Enter your permanent adress</big>:<br><br>
+        <input class="ch" type="text" placeholder=" street" required><br><br>
+        <input class="ch" type="text" placeholder=" colony" required><br><br>
+        <input class="ch" type="text" placeholder="door no" required><br><br>
+        <input class="ch" type="text" placeholder="state" required><br><br>
+        <input class="ch" type="text" placeholder="district" required><br><br>
+        <big>Branch applied for:</big><br><br>
+        <input class="ch" type="radio" value="CSE" name="group">CSE<br>
+        <input class="ch" type="radio" value="CST" name="group">CST<br>
+        <input class="ch" type="radio" value="CSD" name="group">CSD<br>
+        <input class="ch" type="radio" value="CAI" name="group">CAI<br>
+        <input class="ch" type="radio" value="EEE" name="group">EEE<br><br>
+        <big>Educational details:</big><br><br>
+        <input class="ch" type="text" placeholder="educational details">
+        <ul>
+            <li>10 study certificate<br><input id="d" class="ab" type="file"></li>
+            <li>inter study certificate<br><input id="c" class="ab" type="file"></li>
+            <li>10 marks memo<br><input class="ch" id="b" type="file"></li>
+            <li>inter marks memo<br><input class="ch" id="e" type="file"></li>
+        </ul>
+        <big>signature:</big><br><br>
+        <input class="ch" type="signature" placeholder="signature of student"><br><br>
+        <input class="ch" type="signature" placeholder="signature of parent"><br><br><br>
+        <center> <button onclick="alert('submitted successfully')">SUBMIT</button></center>
+    </form>
+</span>
+</body>
+</html>
